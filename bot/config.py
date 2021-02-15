@@ -3,13 +3,13 @@ import os
 
 class Config:
 
-    API_ID = int(os.environ.get("API_ID"))
-    API_HASH = os.environ.get("API_HASH")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
-    SESSION_NAME = os.environ.get("SESSION_NAME", ":memory:")
+    API_ID = int(os.environ.get("2624913"))
+    API_HASH = os.environ.get("a204e6332a52ea40033b8215421bc81d")
+    BOT_TOKEN = os.environ.get("1656523991:AAEQ4RLeVROmZ2uBf-9Rj-gyKjhT4jeV-bU")
+    SESSION_NAME = os.environ.get("screeenshot", ":memory:")
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
-    DATABASE_URL = os.environ.get("DATABASE_URL")
-    AUTH_USERS = [int(i) for i in os.environ.get("AUTH_USERS", "").split(" ")]
+    DATABASE_URL = os.environ.get("mongodb+srv://erich:erich@vcpb.oo9ah.mongodb.net/<vcpb>?retryWrites=true&w=majority")
+    AUTH_USERS = [int(i) for i in os.environ.get("1485920883", "").split(" ")]
     MAX_PROCESSES_PER_USER = int(os.environ.get("MAX_PROCESSES_PER_USER", 2))
     MAX_TRIM_DURATION = int(os.environ.get("MAX_TRIM_DURATION", 600))
     TRACK_CHANNEL = int(os.environ.get("TRACK_CHANNEL", False))
